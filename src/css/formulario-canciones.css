@@ -1,0 +1,20 @@
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    min-width: 200px;
+}
+
+.error {
+    color: var(--primer-color);
+    margin-top: 10px;
+    font-size: 14px;
+}
